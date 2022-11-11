@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div className='sm:mt-32 sm:mb-16 sm:px-[100px] px-4 mt-16 mb-8'>
-      <div className="hero">
+    <div className='mt-16 sm:mt-32 '>
+      <section className="hero sm:px-[100px] px-4 sm:mb-16 mb-8">
         <div className="flex-col hero-content lg:flex-row-reverse gap-x-24 gap-y-8">
           <img src="hero-img.png" className="self-start w-full max-w-sm" />
           <div className='flex flex-col gap-y-8'>
@@ -19,6 +19,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+      <section className='grid grid-cols-2 sm:flex bg-[#A02279] justify-between sm:px-[100px] px-4 sm:flex-nowrap py-2 gap-6 items-center mb-7'>
+        <img src="mb-token.png" alt="mb token" className=''/>
+        <img src="metamask.png" alt="metamask" className=''/>
+        <img src="opensea.png" alt="opensea" className=''/>
+      </section>
+      <div>
+        
       </div>
     </div>
   )
