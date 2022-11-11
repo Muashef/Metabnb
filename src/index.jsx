@@ -5,17 +5,19 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './pages/Home';
 import PlacesToStay from './pages/PlacesToStay';
+import Header from './components/Header';
 
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
-  { path: "/places-to-stay", element: <PlacesToStay /> },
+  { path: "/place-to-stay", element: <PlacesToStay /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <main>
+    <main className='sm:pt-10'>
+      <Header />
       <RouterProvider router={router} />
     </main>
   </React.StrictMode>
