@@ -1,13 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {
-
-    },
-    fontFamily: {
-      "red-rose": ["'Red Rose'", 'cursive'],
-    },
+    extend: {},
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    styled: false,
+    themes: false,
+    base: false,
+    utils: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
+  },
 }
