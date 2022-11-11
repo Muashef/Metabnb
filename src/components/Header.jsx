@@ -5,7 +5,7 @@ export default function Header() {
     <div className="navbar sm:px-[100px] justify-between">
       <div>
         <a href='/'>
-          <img src="metabnb.png" alt="logo" className='h-auto w-[120px] sm:w-auto px-4' />
+          <img src="metabnb.png" alt="logo" className='h-auto w-[120px] sm:w-auto px-4 sm:px-0' />
         </a>
       </div>
       <div className="hidden navbar-center lg:flex">
