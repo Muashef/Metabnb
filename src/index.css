@@ -8,3 +8,7 @@ html {
   background-color: #FFF;
   color: #434343;
 }
+
+.btn {
+  border: none;
+}
