@@ -25,9 +25,13 @@ export default function Home() {
         <img src="metamask.png" alt="metamask" className=''/>
         <img src="opensea.png" alt="opensea" className=''/>
       </section>
-      <div>
-        
-      </div>
+      <section className="hero sm:px-[100px] px-4 sm:mt-16 mt-8">
+        <div className="text-center hero-content">
+          <div>
+            <h2 className="mb-8 text-4xl font-bold text-center text-black sm:text-6xl sm:mb-16">Inspiration for your next adventure</h2>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
