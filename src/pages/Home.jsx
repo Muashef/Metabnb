@@ -22,11 +22,11 @@ export default function Home() {
         </div>
       </section>
       <section className='grid grid-cols-2 sm:flex bg-[#A02279] justify-between sm:px-[100px] px-4 sm:flex-nowrap py-2 gap-6 items-center mb-7'>
-        <img src="mb-token.png" alt="mb token" className=''/>
-        <img src="metamask.png" alt="metamask" className=''/>
-        <img src="opensea.png" alt="opensea" className=''/>
+        <img src="mb-token.png" alt="mb token" />
+        <img src="metamask.png" alt="metamask" />
+        <img src="opensea.png" alt="opensea"/>
       </section>
-      <section className="hero sm:px-[100px] px-4 sm:mt-16 mt-8">
+      <section className="hero sm:px-[100px] px-4 sm:pt-10 pt-5 sm:pb-14 pb-8">
         <div className="flex flex-col">
           <div>
             <h2 className="mb-8 text-4xl font-bold text-center text-black sm:text-6xl sm:mb-16">Inspiration for your next adventure</h2>
