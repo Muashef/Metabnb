@@ -21,7 +21,7 @@ export default function Card({image}) {
           <input type="radio" name="rating-6" className="bg-[#A02279] mask mask-star-2"  />
           <input type="radio" name="rating-6" className="bg-[#A02279] mask mask-star-2" />
           <input type="radio" name="rating-6" className="bg-[#A02279] mask mask-star-2" />
-          <input type="radio" name="rating-6" className="bg-[#A02279] mask mask-star-2" checked />
+          <input type="radio" name="rating-6" className="bg-[#A02279] mask mask-star-2" checked readOnly/>
         </div>
       </div>
     </div>
