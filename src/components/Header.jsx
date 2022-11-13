@@ -17,7 +17,7 @@ export default function Header() {
         </ul>
       </div>
       <div>
-        <button type="button" className="btn bg-[#A02279] text-white btn-sm sm:btn-md hover:bg-[#A02279] hover:opacity-90">Connect wallet</button>
+        <label htmlFor="my-modal-3" className="btn bg-[#A02279] text-white btn-sm sm:btn-md hover:bg-[#A02279] hover:opacity-90">Connect wallet</label>
         <div className="dropdown dropdown-bottom dropdown-end">
           <label tabIndex={0} className="bg-white btn-ghost btn lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
