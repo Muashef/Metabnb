@@ -36,6 +36,19 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section>
+        <div className="hero bg-[#A02279] text-white sm:p-[100px] p-4">
+          <div className="flex flex-col items-center w-full gap-8 p-0 lg:flex-row-reverse lg:justify-between">
+            <img src="hero-2.png" className="self-start w-full sm:max-w-md xl:max-w-max" alt='hero2'/>
+            <div className='max-w-md'>
+              <h3 className="text-4xl font-bold sm:text-6xl">Metabnb NFTs</h3>
+              <p className="py-6">Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
+              <button type='button' className="btn bg-white text-[#A02279] hover:bg-white hover:opacity-90 px-10 mt-10">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </div>
   )
 }
