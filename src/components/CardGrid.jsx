@@ -22,7 +22,7 @@ export default function CardGrid({ size }) {
   ]
   
   return (
-    <div className="grid justify-center grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
       {data.slice(0, size).map((item) => (
         <Card key={item.id} image={item.image} />
       ))}
