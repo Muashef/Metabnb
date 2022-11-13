@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className='mt-16 sm:mt-32 '>
       <section className="hero sm:px-[100px] px-4 sm:mb-16 mb-8">
-        <div className="flex flex-col justify-between w-full p-0 lg:flex-row-reverse gap-y-8">
+        <div className="flex flex-col justify-between w-full p-0 gap-y-8 lg:flex-row-reverse gap-x-28">
           <img src="hero-img.png" className="self-start w-full max-w-md" alt='hero'/>
           <div className='flex flex-col max-w-3xl lg:pt-10 gap-y-8'>
             <h1 className="text-4xl sm:text-6xl sm:mt-6">Rent a <span className='text-[#A02279] font-bold'>Place</span> away from <span className='text-[#A02279] font-bold'>Home</span> in the <span className='text-[#A02279] font-bold'>Metaverse</span></h1>
