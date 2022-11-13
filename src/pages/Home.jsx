@@ -1,5 +1,6 @@
 import React from 'react'
 import CardGrid from '../components/CardGrid'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -48,7 +49,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+      <section>
+        <Footer />
+      </section>
     </div>
   )
 }
